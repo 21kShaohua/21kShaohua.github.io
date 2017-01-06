@@ -11,3 +11,102 @@ input, button, textarea, checkbox, select, radio, form { vertical-align: top; }
 a{ color: #000; text-decoration: none; }
 a:link, a:visited { text-decoration: none; }
 .blank { height: 0.5rem; font-size: 0; line-height: 0; clear: both; overflow: hidden; }
+
+body {
+  background: #060e1b;
+  overflow: hidden;
+}
+
+canvas {
+  //opacity: 0.5;
+
+  position: absolute;
+}
+/* Demo Buttons Style */
+.codrops-demos {
+	font-size: 0.8em;
+	text-align:center;
+	position:absolute;
+	z-index:99;
+	width:96%;
+}
+
+.codrops-demos a {
+	display: inline-block;
+	margin: 0.35em 0.1em;
+	padding: 0.5em 1.2em;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	border-radius: 2px;
+	font-size: 110%;
+	border: 2px solid transparent;
+	color:#fff;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo {
+	border-color: #383a3c;
+}
+
+
+/*----------------------我是分割线----------------------*/
+
+.wrapper{ width:100%;height: auto;overflow: hidden;  position: absolute; color: #fff;}
+.wrapper>h1{ 
+	font-family: "Arial", sans-serif;
+	font-size: 85px;
+	text-align: center;
+	font-weight: bold;
+	color: #3d3d3d;
+	margin-top: 50px;
+	position: relative;
+	}		
+.text:after {
+	content: '';
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+span {
+	text-shadow:
+	 0 -1px 0 #fff, 
+	  0 1px 10px rgba(0,0,0,.6),
+	    0 6px 1px rgba(0,0,0,.1), 
+		 0 0 5px rgba(0,0,0,.2), 
+		  0 1px 3px rgba(0,0,0,.3), 
+		   0 3px 5px rgba(0,0,0,.2), 
+		    0 7px 10px rgba(0,0,0,.25), 
+			 0 15px 10px rgba(0,0,0,.2),  
+			 0 25px 15px rgba(0,0,0,.15);
+}
+
+.grjs{ width: 500px; height: auto; margin: 0 auto;}
+@keyframes js1{
+	from{color: #fff; font-size: 1rem; margin-left: 150%;}
+	to{ color:darkgoldenrod; font-size: 2rem; margin-left: 0%;}
+}
+.js1{
+	animation: js1 3s;
+	animation-fill-mode: forwards;
+}
+
+.js3{ margin-top: 1rem;}
+
+@keyframes pkq{
+	from{ margin-bottom: -50%;}
+	to{ margin-bottom: 50%;}
+}
+.pkq{
+	width: 250px;
+	color: yellow;
+	float: right;
+	animation: pkq 5s;
+	animation-timing-function:linear;
+	}
+.pkq i{ display: block;}
