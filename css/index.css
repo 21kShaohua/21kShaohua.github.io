@@ -1,0 +1,13 @@
+html { font-size:62.5%; }
+*{ margin:0; padding:0;}
+img { width:100%;border:none; }
+em,i{ font-style:normal;}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, font { padding: 0; margin: 0; font-family:"微软雅黑"; }
+body{ display:block !important;}
+table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 100%; }
+ol, ul, li, dl, dt, dd { list-style: none; }
+input, button, textarea, checkbox, select, radio, form { vertical-align: top; }
+a{ color: #000; text-decoration: none; }
+a:link, a:visited { text-decoration: none; }
+.blank { height: 0.5rem; font-size: 0; line-height: 0; clear: both; overflow: hidden; }
